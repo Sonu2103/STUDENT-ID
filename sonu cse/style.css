@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffffff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.card{
+    width: 400px;
+    height: 700px;
+    border-radius: 12px;
+    background-color: #25316D;
+    padding: 2%;
+
+}
+.card .title{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2%; 
+    overflow: hidden;
+}
+.card .title p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    text-align: justify;
+}
+.card .image{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+}
+.card .image .outer{
+    background-color: #f7c00c;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .image .inner{
+    height: 140px;
+    width: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.card .image .inner img{
+    width: 100%;
+    height: 100%;
+    align-content:center;
+}
+.card .name{
+    color: #ffffff;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 2%;
+}
+.card .details{
+    background-color: #f7c00c;
+    height: 40%;
+    margin-top: 10%;
+    border-top-left-radius: 75px;
+    padding: 9%;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    border-top: 4px solid white;
+}
+.card .details .col{
+    width:80%;
+    padding: 5%;
+
+}
+.card .details .col img{
+    width: 100%;
+    align-items:center;
+    display: flex;
+}
+.card .details .col img{
+    background-color: #ffffff;
+    border:4px solid #25316D;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .detail .col:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .details li{
+    margin-top: 8%;
+    font-size: 1.25rem;
+    display: flex;
+}
